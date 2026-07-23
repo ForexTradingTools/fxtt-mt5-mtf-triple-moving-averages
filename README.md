@@ -85,7 +85,7 @@ Timeframes below your current chart timeframe are automatically disabled to keep
 
 ### Steps
 
-1. **Download** the `.zip` file from the [Releases](../../releases) section or from the [product page](https://forextradingtools.eu).
+1. **Download** the `.zip` file from the [Releases](https://github.com/ForexTradingTools/fxtt-mt5-mtf-triple-moving-averages/releases) section or from the [product page](https://forextradingtools.eu).
 2. **Extract** the zip — you will find `FxTT_MTF_TripleMA.ex5` inside.
 3. In MetaTrader 5, go to **File → Open Data Folder**.
 4. Navigate to **MQL5 → Indicators** and paste the `.ex5` file there.
@@ -251,4 +251,4 @@ This indicator is provided **free of charge** for personal use. You may use it o
 
 ---
 
-*Found a bug or have a feature request? Open an [issue](../../issues) or use the suggestion form on the [product page](https://forextradingtools.eu).*
+*Found a bug or have a feature request? Open an [issue](https://github.com/ForexTradingTools/fxtt-mt5-mtf-triple-moving-averages/issues) or use the suggestion form on the [product page](https://forextradingtools.eu).*
