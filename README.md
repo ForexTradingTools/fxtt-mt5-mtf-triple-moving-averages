@@ -9,7 +9,7 @@
 
 ---
 
-![MTF Triple MA MT5 on a M5 chart](https://forextradingtools.eu/wp-content/uploads/2026/03/mtf-triple-ma-mt5-chart-m5-1024x705.png)
+![MTF Triple MA MT5 on a M5 chart](screenshots/mtf-triple-ma-mt5-chart-m5.png)
 
 ---
 
@@ -122,7 +122,7 @@ Once configured, right-click the chart → **Template → Save Template** to pre
 
 ## Settings Reference
 
-![Indicator settings](https://forextradingtools.eu/wp-content/uploads/2026/03/mtf-triple-ma-mt5-settings.png)
+![Indicator settings](screenshots/mtf-triple-ma-mt5-settings.png)
 
 All parameters are in the **Inputs** tab of the indicator settings window. Open it by double-clicking the indicator in the Navigator, or right-clicking the chart → **Indicators List → Edit**.
 
