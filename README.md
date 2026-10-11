@@ -36,7 +36,7 @@ Instead of switching between chart windows to check higher-timeframe trend direc
 
 **Who it is for:** Traders who want to identify trend alignment, dynamic support and resistance levels, multi-timeframe MA confluence zones, and higher-timeframe trend context — without cluttering their workflow.
 
-> **MT4 user?** See the [MTF Triple Moving Averages – MT4 version](https://forextradingtools.eu/products/indicators/mtf-triple-moving-averages-free-indicator/) on our website.
+> **MT4 user?** See the [MTF Triple Moving Averages – MT4 version](https://forextradingtools.eu/en/marketplace/mtf-triple-ma) on our website.
 
 ---
 
@@ -85,7 +85,7 @@ Timeframes below your current chart timeframe are automatically disabled to keep
 
 ### Steps
 
-1. **Download** the `.zip` file from the [Releases](https://github.com/ForexTradingTools/fxtt-mt5-mtf-triple-moving-averages/releases) section or from the [product page](https://forextradingtools.eu).
+1. **Download** the `.zip` file from the [Releases](https://github.com/ForexTradingTools/fxtt-mt5-mtf-triple-moving-averages/releases) section or from the [product page](https://forextradingtools.eu/en/marketplace/mtf-triple-ma-mt5).
 2. **Extract** the zip — you will find `FxTT_MTF_TripleMA.ex5` inside.
 3. In MetaTrader 5, go to **File → Open Data Folder**.
 4. Navigate to **MQL5 → Indicators** and paste the `.ex5` file there.
@@ -201,7 +201,7 @@ When Slow MAs from two or more timeframes cluster near the same price level, tha
 
 The MTF Triple MA works best as a **trend and structure tool**, not a standalone signal generator. Consider pairing it with:
 
-- **[MTF Bollinger Bands MT5](https://forextradingtools.eu/products/indicators/mtf-bollinger-bands-mt5-indicator/)** — align trend direction (MAs) with volatility context (Bollinger Bands) on the same chart.
+- **[MTF Bollinger Bands MT5](https://forextradingtools.eu/en/marketplace/mtf-bollinger-bands-mt5)** — align trend direction (MAs) with volatility context (Bollinger Bands) on the same chart.
 - **RSI or Stochastic** — use as a timing filter when price reaches a key MA level.
 - **ATR** — confirm that a breakout or pullback is occurring with adequate volatility.
 
@@ -218,7 +218,7 @@ The MTF Triple MA works best as a **trend and structure tool**, not a standalone
 | **Instruments** | Forex pairs · Gold (XAUUSD) · Indices (US30, NAS100, DE40…) · Crypto (BTCUSD, ETHUSD…) · All MT5-supported symbols |
 | **Timeframes** | M1 to MN1 |
 | **Expert Advisors** | Compatible — the indicator is visual only and does not interfere with EAs on the same or other charts |
-| **MT4** | Not compatible — use the [MTF Triple MA MT4 version](https://forextradingtools.eu/products/indicators/mtf-triple-moving-averages-free-indicator/) instead |
+| **MT4** | Not compatible — use the [MTF Triple MA MT4 version](https://forextradingtools.eu/en/marketplace/mtf-triple-ma) instead |
 
 ---
 
@@ -236,8 +236,8 @@ The MTF Triple MA works best as a **trend and structure tool**, not a standalone
 
 | Indicator | Platform | Description |
 |---|---|---|
-| [MTF Triple Moving Averages](https://forextradingtools.eu/products/indicators/mtf-triple-moving-averages-free-indicator/) | MT4 | The MT4 version of this indicator |
-| [MTF Bollinger Bands MT5](https://forextradingtools.eu/products/indicators/mtf-bollinger-bands-mt5-indicator/) | MT5 | Multi-timeframe Bollinger Bands — pairs well with MTF Triple MA |
+| [MTF Triple Moving Averages](https://forextradingtools.eu/en/marketplace/mtf-triple-ma) | MT4 | The MT4 version of this indicator |
+| [MTF Bollinger Bands MT5](https://forextradingtools.eu/en/marketplace/mtf-bollinger-bands-mt5) | MT5 | Multi-timeframe Bollinger Bands — pairs well with MTF Triple MA |
 
 More free MT5 and MT4 indicators at [forextradingtools.eu](https://forextradingtools.eu).
 
@@ -267,4 +267,4 @@ This indicator is provided **free of charge** for personal use. You may use it o
 
 ---
 
-*Found a bug or have a feature request? Open an [issue](https://github.com/ForexTradingTools/fxtt-mt5-mtf-triple-moving-averages/issues) or use the suggestion form on the [product page](https://forextradingtools.eu).*
+*Found a bug or have a feature request? Open an [issue](https://github.com/ForexTradingTools/fxtt-mt5-mtf-triple-moving-averages/issues) or use the suggestion form on the [product page](https://forextradingtools.eu/en/marketplace/mtf-triple-ma-mt5).*
