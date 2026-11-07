@@ -4,12 +4,14 @@
 
 [![Platform](https://img.shields.io/badge/Platform-MetaTrader%205-blue)](#compatibility)
 [![License](https://img.shields.io/badge/License-Free-brightgreen)](#license)
-[![Version](https://img.shields.io/badge/Version-1.00-orange)](#changelog)
+[![Version](https://img.shields.io/badge/Version-2.00-orange)](#changelog)
 [![Instruments](https://img.shields.io/badge/Instruments-Forex%20%7C%20Gold%20%7C%20Indices%20%7C%20Crypto-lightgrey)](#compatibility)
 
 ---
 
 ![MTF Triple MA MT5 on a M5 chart](screenshots/mtf-triple-ma-mt5-chart-m5.png)
+
+> **Released version: 2.00.** This is the build the [product page](https://forextradingtools.eu/en/marketplace/mtf-triple-ma-mt5) download ships, published as the [v2.00 release](https://github.com/ForexTradingTools/fxtt-mt5-mtf-triple-moving-averages/releases/tag/v2.00). Its source is [`src/MTF_Triple_MA.mq5`](src/MTF_Triple_MA.mq5), which includes [`src/Include/FxTT/V1.000/TripleMA.mqh`](src/Include/FxTT/V1.000/TripleMA.mqh).
 
 ---
 
@@ -85,13 +87,17 @@ Timeframes below your current chart timeframe are automatically disabled to keep
 
 ### Steps
 
-1. **Download** the `.zip` file from the [Releases](https://github.com/ForexTradingTools/fxtt-mt5-mtf-triple-moving-averages/releases) section or from the [product page](https://forextradingtools.eu/en/marketplace/mtf-triple-ma-mt5).
+1. **Download** `FxTT_MTF_TripleMA.zip` from the [v2.00 release](https://github.com/ForexTradingTools/fxtt-mt5-mtf-triple-moving-averages/releases/tag/v2.00) or from the [product page](https://forextradingtools.eu/en/marketplace/mtf-triple-ma-mt5).
 2. **Extract** the zip — you will find `FxTT_MTF_TripleMA.ex5` inside.
 3. In MetaTrader 5, go to **File → Open Data Folder**.
 4. Navigate to **MQL5 → Indicators** and paste the `.ex5` file there.
 5. Back in MT5, press **Ctrl+N** to open the Navigator panel, then right-click **Indicators → Refresh**.
 6. Double-click the indicator in the Navigator, or drag it onto any chart to attach it.
 7. Configure your settings in the Inputs tab and click OK.
+
+### Compiling the Source
+
+Copy `src/Include/FxTT/V1.000/TripleMA.mqh` to `MQL5/Include/FxTT/V1.000/` and `src/MTF_Triple_MA.mq5` to `MQL5/Indicators/`, then open the `.mq5` in MetaEditor and press **Compile**.
 
 ### VPS Installation
 
@@ -226,7 +232,10 @@ The MTF Triple MA works best as a **trend and structure tool**, not a standalone
 
 | Version | Date | Notes |
 |---|---|---|
+| **2.00** | March 2026 | Released build shipped by the product page download. Refactor with the same inputs as 1.00; the per-timeframe MA logic moved into the `TripleMA.mqh` include. |
 | **1.00** | March 2026 | Initial release. 9 timeframes (M1–MN1), three MAs per timeframe (Fast/Medium/Slow), draggable control panel with one-click toggles, automatic lower-timeframe filtering, full MA customisation (period, shift, method, applied price, line style, width, colour). No repainting. |
+
+Repository layout: `src/` holds the 2.00 source and its include; `releases/FxTT_MTF_TripleMA-v2_00.ex5` is the released build and `releases/MTF_Triple_MA-v1_00.ex5` the earlier 1.00 build.
 
 **Update policy:** All updates are free. Replace the `.ex5` file in `MQL5/Indicators` with the new version and refresh the Navigator. Your saved templates preserve all custom settings across updates.
 
